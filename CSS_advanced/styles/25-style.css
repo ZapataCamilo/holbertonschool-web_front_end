@@ -547,7 +547,7 @@ ul.row{
 }
 .card-services a:hover{
     color: var(--color-white);
-    color: var(--color-primary);
+    background-color: var(--color-primary);
     text-decoration: none;
 }
 .button{
@@ -555,7 +555,7 @@ ul.row{
     padding: var(--button-padding);
     border: var(--button-border);
     font-size: var(--button-font-size);
-    background-color: var(--button-color);
+    color: var(--button-color);
     text-decoration: var(--button-text-decoration);
 }
 .button:hover{
