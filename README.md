@@ -14,6 +14,3 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - How to know how much JavaScript or CSS is used on a page
 - How to detect 404 issues
 - How to move elements on a webpage
-
-
-![Alt text](image.png)
