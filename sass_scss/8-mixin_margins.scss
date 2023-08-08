@@ -1,0 +1,11 @@
+@mixin margin_html($txtMargin) {
+    margin-left: $txtMargin;
+    margin-right: $txtMargin;
+}
+
+body {
+    @include margin_html(10px);
+}
+div {
+    @include margin_html(10px)
+}
