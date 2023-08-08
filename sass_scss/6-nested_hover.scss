@@ -1,0 +1,10 @@
+@mixin colors($textColor) {
+    color: $textColor;
+}
+
+button {
+    @include colors(#FF0000);
+    &:hover {
+        @include colors(#00FF00);
+    }
+}
