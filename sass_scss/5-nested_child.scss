@@ -1,0 +1,10 @@
+@mixin colores($textColor) {
+    color: $textColor;
+}
+
+body {
+    @include colores(#3D3D3D);
+    >.red {
+        @include colores(#FF0000);
+    }
+}
