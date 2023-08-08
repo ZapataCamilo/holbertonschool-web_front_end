@@ -1,0 +1,13 @@
+@mixin size($textSize) {
+    font-size: $textSize;
+}
+
+body {
+    @include size(14px);
+    h1 {
+        @include size(16px);
+        .smaller {
+            @include size(12px);
+        }
+    }
+}
